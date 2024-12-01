@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    line-height: 1;
+}
+
+.vidbg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.522); */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.231) , #87CEEB);
+    color: rgb(255, 255, 255);
+    position: relative;
+    min-height: 100vh;
+    font-size: 3em;
+    overflow: hidden;
+}
+
+.videobg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -1;
+}
+
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #6c757d;
+    text-align: left;
+    background-color: white;
+}
+
+.about-img{
+    margin-top: -22rem;
+    margin-left: 37rem;
+     
+}
+
+.btn{
+    padding: 10px 25px;
+    border-radius: 100px;
+}
+
+.btn-white{
+    background-color: white;
+    border: 2px solid white;
+}
+
+.btn-blue{
+    border: 2.3px solid white;
+    color: white;
+}
+
+.hero-text{
+    margin-top: 180px;
+}
+
+.position-absolute{
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:active{
+    color: #87CEEB;
+
+}
+
+.display-1{
+    font-size: 160px;
+    font-weight: 1000;
+}
+
+.ex-me{
+    margin-top: 35px;
+}
+
+
+.bisnis-box{
+    box-shadow: 0px 1px 7px rgba(0,0,0,0.1);
+    margin-left: 20px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 0px;
+}
+
+.bisnis-box:hover{
+    box-shadow: 0px 1px 12px rgba(27, 27, 27, 0.7)
+}
+
