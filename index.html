@@ -24,6 +24,13 @@
 
 </head>
 <body>
+    <!-- landing -->
+    <div class="vidbg" id="landingPage">
+        <h1 class="display-1 text-uppercase" style="-webkit-text-stroke: 2px #ffffff; color: #dee2e600;">PORTOFOLIO LEO FERNANDY</h1>
+        <video class="videobg" src="vid/landing.mp4" autoplay muted loop></video>
+    </div>
+
+
     <!-- navbar -->
      <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand ml-lg-3">
@@ -477,6 +484,15 @@
         </div>
     </div>
      <!-- end footer -->
+
+     <!-- skrip -->
+     <script>
+        // Pindahkan dari landing ke konten utama setelah 3.5 detik
+        setTimeout(function() {
+            document.getElementById('landingPage').style.display = 'none'; // Sembunyikan landing
+            document.getElementById('nav').style.display = 'block'; // Tampilkan konten utama
+        }, 3500); // 3.5 detik
+    </script>
 
 
 
